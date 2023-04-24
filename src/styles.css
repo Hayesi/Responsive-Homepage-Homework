@@ -1,0 +1,28 @@
+body {
+  margin: 100px 0;
+}
+
+h2 {
+  padding-top: 20px;
+}
+
+h1 {
+  color: rgba(0, 0, 0, 0.178);
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+}
+
+h2,
+h3 {
+  color: rgb(240, 248, 255);
+  font-family: "Poppins", sans-serif;
+  font-weight: normal;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.nav-link {
+  color: bisque;
+}

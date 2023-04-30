@@ -1,22 +1,36 @@
-body {
-  margin: 100px 0;
+:root {
+  --branding-color: #fabff79e;
+  --secondary-color: #f9f7fe;
+  --heading-font-family: "Playfair Display", serif;
+  --default-font-family: "Poppins", sans-serif;
 }
 
-h2 {
+body {
+  margin: 100px 0;
+  font-family: var(--default-font-family);
+}
+
+h2 .index {
   padding-top: 20px;
 }
 
-h1 {
+h1 .index {
   color: rgba(0, 0, 0, 0.178);
   font-family: "Playfair Display", serif;
   font-weight: bold;
 }
 
-h2,
-h3 {
+h2 .index,
+h3 .index {
   color: rgb(240, 248, 255);
   font-family: "Poppins", sans-serif;
   font-weight: normal;
+}
+
+p {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
 }
 
 .text-center {
@@ -25,4 +39,42 @@ h3 {
 
 .nav-link {
   color: bisque;
+}
+footer {
+  margin: 60px 0;
+}
+
+footer .contact-box {
+  background: var(--secondary-color);
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+
+footer .contact-box p {
+  margin: 0;
+}
+
+footer .email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+}
+
+footer .email-link:hover {
+  color: var(--branding-color);
+}
+
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--branding-color);
+  background: var(--secondary-color);
+  padding: 10px 14px;
+  border-radius: 50%;
+  font-size: 18px;
+  transition: all 100ms ease-in-out;
+}
+
+footer .social-links a:hover {
+  color: white;
+  background: var(--branding-color);
 }
